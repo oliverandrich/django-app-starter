@@ -36,6 +36,7 @@ Repository = "https://github.com/oliverandrich/{{ app_name }}"
 dev = [
     "coverage[toml]",
     "django-test-plus",
+    "packaging",
     "django-stubs[compatible-mypy]>=5.1.1",
     "django-rich",
 ]
